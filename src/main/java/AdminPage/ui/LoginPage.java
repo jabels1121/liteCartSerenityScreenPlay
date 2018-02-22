@@ -8,5 +8,6 @@ public class LoginPage extends PageObject{
 
     public static By LOGIN_FIELD;
     public static By PASSWORD_FIELD;
+    protected static String test;
 
 }

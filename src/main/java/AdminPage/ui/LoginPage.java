@@ -1,13 +1,18 @@
 package AdminPage.ui;
+import net.serenitybdd.screenplay.targets.Target;
 
-import net.serenitybdd.core.pages.PageObject;
-import org.openqa.selenium.By;
+public class LoginPage {
 
-public class LoginPage extends PageObject{
+    public static final Target LOGIN_FIELD = Target.the("Login input field")
+            .locatedBy("//input[@name='username']");
 
+    public static final Target PASS_FIELD = Target.the("Password input field")
+            .locatedBy("//input[@name='password']");
 
-    public static By LOGIN_FIELD;
-    public static By PASSWORD_FIELD;
-    protected static String test;
+    public static final Target LOGIN_BUTTON = Target.the("Login button")
+            .locatedBy("//button[@name='login']");
+
+    public static final Target LOGOTYPE = Target.the("LiteCart logotype")
+            .locatedBy("//div[@class='header']//img");
 
 }

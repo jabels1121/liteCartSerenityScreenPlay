@@ -14,5 +14,6 @@ public class LoginPage {
 
     public static final Target LOGOTYPE = Target.the("LiteCart logotype")
             .locatedBy("//div[@class='header']//img");
+    //1
 
 }
